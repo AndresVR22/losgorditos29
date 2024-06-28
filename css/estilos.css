@@ -1,0 +1,207 @@
+body{
+    margin: 0;
+}
+
+header{
+  
+    position: sticky;
+    top:0;
+    background-color: white;
+    background-image: url(https://img.freepik.com/vector-premium/patron-fisuras-corazones-rosa_373887-1340.jpg);
+
+
+
+    top: 0; /* Lo coloca en la parte superior */
+    width: 100%; /* Ancho completo del header */
+    background-color: #333; /* Color de fondo del header (cambia según tu diseño) */
+    z-index: 1000; /* Valor alto de z-index para asegurar que esté por encima de otros elementos */
+    padding: 10px 0; /* Espacio interno superior e inferior del header */
+}
+
+/* Estilos adicionales para el contenido principal */
+.main-content {
+    margin-top: 80px; /* Ajusta el margen superior del contenido principal para que no se superponga con el header */
+}
+
+.rosado {
+        color: pink;
+}
+
+.buscador {
+    color: rgb(3, 3, 3);
+    }
+
+    body {
+        background-image: url(https://img.freepik.com/vector-premium/patron-fisuras-corazones-rosa_373887-1340.jpg);
+      }
+
+.divLogo{
+    text-align: center;
+}
+
+h1{
+    margin-left: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    
+}
+
+.aling{
+    text-align: center;
+    color: #333;
+
+}
+
+
+.titulo{
+ text-align: center;
+}
+
+.objetivo-fondo{
+    text-align: center;
+    color: rgb(12, 12, 12);
+   }
+
+   .amor{
+    text-align: center;
+
+    color: rgb(247, 83, 111);
+    font-family:cursive
+    color
+   }
+   
+
+    
+    
+    
+
+.links{
+    display: flex;
+    list-style: none;
+    width: 300px; 
+   
+    justify-content: space-evenly;
+}
+
+
+.objetivo{
+  
+    margin: 30px;
+  
+    padding: 20px 60px 5px 10px;
+    border-radius: 20px;
+}
+
+
+
+.chat{
+    position: fixed;
+    right: 10px;
+    bottom: 30px;
+    background-color: #00ff04;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.productoCurso{
+    width: 300px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+    border: rgb(3, 3, 3) 1px solid;
+    border-radius: 16px;
+    padding: 10px;
+}
+.productoCurso img{
+    border-radius: 20px;
+}
+
+.cursos{
+    display: grid;
+    grid-template-columns: repeat(3, 330px);
+    justify-items: end;
+    justify-content: center;
+    gap: 20px;
+}
+
+.logogas{
+    width: 100px;
+    
+}
+.corazon {
+    color: rgb(226, 96, 122);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 20px;
+  font-size: 64px
+    
+}
+.pelon {
+    color: rgb(151, 40, 108);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 20px;
+  font-size: 64px
+  
+}   
+
+    .imagen {
+        width: 20%; /* Ajusta el ancho de la imagen */
+        height: auto; /* Altura automática para mantener la proporción */
+        max-width: 100%; /* Asegura que no se desborde el contenedor */
+        display: block;
+    }   
+.container {
+    margin-top: 50px; /* Margen superior para separar del borde superior */
+}
+
+.carousel-item img {
+    width: 500px; /* Ancho deseado para las imágenes */
+    height: auto; /* Altura automática para mantener la proporción */
+    margin: 0 auto; /* Margen automático para centrar horizontalmente */
+}
+
+
+
+
+.h5 {
+    color: black;
+    text-align: center;
+}
+@media(max-width: 1070px){
+    .cursos{
+        grid-template-columns: repeat(2, 330px);
+        align-items: center;
+    }
+}
+
+@media(max-width: 800px){
+    
+    .cursos{
+        grid-template-columns: repeat(1, 330px);
+        align-items: center;
+    }
+}
+
+@media(max-width: 590px){
+.cursos{
+    grid-template-columns: repeat(1, 330px);
+    align-items: center;
+}
+}
+    header{
+        /* display: block; */
+        flex-wrap: wrap;
+        background-color: white
+        
+    }
+
+@media(max-width: 430px){
+    header{
+        background-color: white
+    }
+}
